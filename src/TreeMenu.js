@@ -1,5 +1,5 @@
 var React = require('react'),
-  TreeNode = require('./TreeNode.js'),
+  TreeNode = require('./TreeNode'),
   TreeNodeFactory = React.createFactory(TreeNode),
   TreeNodeMixin = require('./TreeNodeMixin'),
   clone = require('lodash').clone,
