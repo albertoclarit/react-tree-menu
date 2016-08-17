@@ -2,7 +2,7 @@
   "name": "react-tree-menu",
   "version": "1.5.0",
   "description": "A tree menu component for React",
-  "main": "./lib/bundle.js",
+  "main": "lib/bundle.js",
   "keywords": [
     "react",
     "tree",
