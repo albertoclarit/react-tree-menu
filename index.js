@@ -1,4 +1,4 @@
-var api = require('./src/TreeMenu.jsx');
+var api = require('./src/TreeMenu');
 
 api.TreeMenu = require('./src/TreeMenu');
 api.TreeNode = require('./src/TreeNode');
