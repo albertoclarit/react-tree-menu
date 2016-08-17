@@ -21,15 +21,16 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.jsx'],
     },
+    //http://stackoverflow.com/questions/37652934/what-is-the-proper-way-to-publish-a-react-component-module-in-npm-without-extern
     "externals": {
-        "react": "react",
-        "react-dom" :"reactDOM",
-        "immutable":"immutable",
-        "lodash":"lodash",
-        "object-assign":"object-assign",
-        "reactify":"reactify",
-        "invariant":"invariant",
-        "react-addons-css-transition-group":"react-addons-css-transition-group"
+        "react": "commonjs react",
+        "react-dom" :"commonjs reactDOM",
+        "immutable":"commonjs immutable",
+        "lodash":"commonjs lodash",
+        "object-assign":"commonjs object-assign",
+        "reactify":"commonjs reactify",
+        "invariant":"commonjs invariant",
+        "react-addons-css-transition-group":"commonjs react-addons-css-transition-group"
     },
     devtool: 'sourcemap',
     plugins: [
