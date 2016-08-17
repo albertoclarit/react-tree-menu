@@ -6,7 +6,9 @@ var webpack = require('webpack');
 module.exports = {
     entry: './index.js',
     output: {
-        filename: './lib/bundle.js'
+        filename: './lib/index.js',
+        library:'ReactTreeMenu',
+        libraryTarget:'umd'
     },
     module: {
         loaders: [{
